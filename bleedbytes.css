@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+#navtext {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #000000;
+}
+
+.color {
+  background: #0099CC;
+}
+
+#logo {
+  font-family: 'Gugi', cursive;
+  color: #212121;
+}
+
+#para {
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.3rem;
+  color:
+}
+
+#about-title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 3rem;
+}
+
+#address {
+  font-family: 'Slabo 27px', serif;
+  color: #ffffff;
+}
+
+.sidenav {
+  float: right;
+  height: 150px;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #483D8B;
+  overflow-x: hidden;
+  padding-top: 50px;
+  margin-right: -25px;
+  transition: all .5s;
+  margin-top: 15em;
+  border-radius: 4px;
+}
+
+.sidenav:hover {
+  margin-right: 3px;
+  background-color: #111;
+}
+
+.sidenav a {
+  padding: 0px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transform: rotate(270deg);
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#partners {
+  margin-left: 20px;
+}
+
+#partners h2 {
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #0197F6;
+}
+
+h5 {
+  color: #210124;
+}
+
+main p
+{
+  color: #575A5E;
+}
