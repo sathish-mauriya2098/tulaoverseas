@@ -1,6 +1,6 @@
 <?php
-mysql_connect('localhost','enyaedu_tula','tulaenquiry');
-mysql_select_db('enyaedu_tula_enquiry');
+mysql_connect('host_name','user','password');
+mysql_select_db('dbname');
 $sql="select * from tula";
 $record=mysql_query($sql);
 ?>
