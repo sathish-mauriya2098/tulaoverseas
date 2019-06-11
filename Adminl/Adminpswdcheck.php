@@ -1,9 +1,9 @@
 <?php
 session_start();
-define('DB_NAME','enyaedu_tula_enquiry');
-define('DB_USER','enyaedu_tula');
-define('DB_PASSWORD','tulaenquiry');
-define('DB_HOST','localhost');
+define('DB_NAME','dbname');
+define('DB_USER','user');
+define('DB_PASSWORD','password');
+define('DB_HOST','host_name');
 $link=mysql_connect(DB_HOST,DB_USER,DB_PASSWORD);
 if(!$link)
 {
